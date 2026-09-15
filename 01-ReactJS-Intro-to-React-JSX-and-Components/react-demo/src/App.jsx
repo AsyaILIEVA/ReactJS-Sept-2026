@@ -5,11 +5,31 @@ import './App.css'
 
 //Function declaration component example
 function App() {  
+  const articles = [
+    {
+      id: 1,
+      title: 'First Article',
+      content: 'This is the content of the first article'
+    },
+    {
+      id: 2,
+      title: 'Second Article',
+      content: 'This is the content of the second article'
+    },
+    {
+      id: 3,
+      title: 'Third Article',
+      content: 'This is the content of the third article'
+    }
+  ]
   return (
     <div>
-      <Header />
+      <Header 
+        title="React Props" 
+        subtitle="Learn how to pass props in React" 
+      />
 
-      <Body />
+      <Body articles={articles} />
 
       <Footer />
     </div>
