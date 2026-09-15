@@ -1,16 +1,17 @@
+import Header from './components/Header.jsx'
+import Body from './components/Body.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 //Function declaration component example
 function App() {  
   return (
     <div>
-      <header>
-        <h1>Hello, React!</h1>  
-        <h2>Welcome to my React App!</h2>
-      </header>
-      <main>
-        <p>This is the main content of the app.</p>
-      </main>
+      <Header />
+
+      <Body />
+
+      <Footer />
     </div>
   ); 
 }
