@@ -3,3 +3,5 @@
 ## Steps
 - [+] Install vite react project
 - [+] Clean up the project
+- [+] Add assets to public folder
+- [+] Add html to App component
