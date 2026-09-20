@@ -14,3 +14,4 @@
 - [+] Rename lower case attribute names to camelCase props
 - [+] Add index.html header links and scripts
 - [+] Extract components by section
+- [+] Extract Service Card as reusable component

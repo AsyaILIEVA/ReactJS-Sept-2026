@@ -1,3 +1,5 @@
+import ServiceItem from "./ServiceItem";
+
 export default function ServiceSection() {
     return (
         <div className="services section" id="services">
@@ -13,14 +15,12 @@ export default function ServiceSection() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.</p>
                   </div>
                 </div>
-                <div className="col-lg-6 col-sm-6">
-                  <div className="service-item">
-                    <div className="icon">
-                      <img src="assets/images/services-01.jpg" alt="discover SEO" className="templatemo-feature"/>
-                    </div>
-                    <h4>Discover More on Latest SEO Trends</h4>
-                  </div>
-                </div>
+
+                <ServiceItem 
+                    imageURL="assets/images/services-01.jpg" 
+                    title="Discover More on Latest SEO Trends"
+                />
+
                 <div className="col-lg-6 col-sm-6">
                   <div className="service-item">
                     <div className="icon">
